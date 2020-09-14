@@ -1,0 +1,54 @@
+body{
+height: 100vh;
+background-color:white;
+color: white;
+display: grid;
+grid-template-columns:2fr 2fr 2fr 1fr ;
+grid-template-rows: 1.5fr 3fr 2fr 1fr;
+gap: 2%;
+grid-template-areas:
+"Header Header Header Header" 
+"SmallBox_1 SmallBox_2 SmallBox_3 SideBar"
+"MainContent MainContent MainContent SideBar"
+"Footer Footer Footer Footer";
+
+
+
+}
+
+#headd{
+    grid-area: Header;
+    background-color: blue;
+    padding: 1%;
+    
+}
+#box1{
+    grid-area: SmallBox_1;
+    background-color: blue;
+    padding: 1%;
+}
+#box2{
+    grid-area: SmallBox_2;
+    background-color: blue;
+    padding: 1%;
+}
+#box3{
+    grid-area: SmallBox_3;
+    background-color: blue;
+    padding: 1%;
+}
+#side{
+    grid-area: SideBar;
+    background-color: blue;
+    padding: 1%;
+}
+#main{
+    grid-area: MainContent;
+    background-color: blue;
+    padding: 1%;
+}
+#foot{
+    grid-area: Footer;
+    background-color: blue;
+    padding: 1%;
+}
